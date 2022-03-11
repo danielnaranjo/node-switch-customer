@@ -1,0 +1,24 @@
+{
+  "name": "switch-customer",
+  "version": "1.0.0",
+  "description": "easy environment manager",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp index.js bin/index.js",
+    "start": "node main.js"
+  },
+  "author": "Daniel Naranjo",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "internal usage",
+    "portal"
+  ],
+  "dependencies": {
+    "commander": "^7.2.0"
+  },
+  "bin": {
+    "switch-env": "./bin/main.js"
+  }
+}
